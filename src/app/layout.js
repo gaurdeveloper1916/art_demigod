@@ -1,5 +1,9 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+// in layout.tsx or top of your component file
+import { Cormorant_Garamond } from 'next/font/google';
+
+const cormorant = Cormorant_Garamond({ subsets: ['latin'], weight: '300' });
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
